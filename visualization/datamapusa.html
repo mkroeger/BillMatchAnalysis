@@ -1,0 +1,403 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/topojson.v1.min.js' type='text/javascript'></script>
+    <script src='http://datamaps.github.io/scripts/datamaps.all.min.js' type='text/javascript'></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/1.0.0/handlebars.min.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    #disqus_thread{
+      padding-top: 100px;
+    }
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chartb9fd59e2efd0' class = 'rChart datamaps'></div>    
+    <script id='popup-template' type='text/x-handlebars-template'>
+    
+</script>
+<script>
+  var chartParams = {
+ "dom": "chartb9fd59e2efd0",
+"width":    800,
+"height":    400,
+"scope": "usa",
+"fills": {
+ "(0,0.1]": "#EFF3FF",
+"(0.1,0.5]": "#6BAED6",
+"(0.5,10000]": "#08519C" 
+},
+"legend": true,
+"labels": true,
+"data": {
+ "AK": {
+ "Year": null,
+"State": "AK",
+"Crime":  null,
+"fillKey": null,
+},
+ "AK": {
+ "Year": null,
+"State": "AK",
+"Crime":  null,
+"fillKey": null,
+},
+"AL": {
+ "Year": null,
+"State": "AL",
+"Crime":  null,
+"fillKey": null,
+},
+"AR": {
+ "Year": null,
+"State": "AR",
+"Crime":  null,
+"fillKey": null,
+},
+"AZ": {
+ "Year": null,
+"State": "AZ",
+"Crime":  null,
+"fillKey": null,
+},
+"CA": {
+ "Year": null,
+"State": "CA",
+"Crime":  null,
+"fillKey": null,
+},
+"CO": {
+ "Year": null,
+"State": "CO",
+"Crime":  0.018948729916471528,
+"fillKey":  "(0,0.1]",
+},
+"CT": {
+ "Year": null,
+"State": "CT",
+"Crime":  null,
+"fillKey": null,
+},
+"DE": {
+ "Year": null,
+"State": "DE",
+"Crime":  null,
+"fillKey": null,
+},
+"FL": {
+ "Year": null,
+"State": "FL",
+"Crime":  null,
+"fillKey": null,
+},
+"GA": {
+ "Year": null,
+"State": "GA",
+"Crime":  null,
+"fillKey": null,
+},
+"HI": {
+ "Year": null,
+"State": "HI",
+"Crime":  null,
+"fillKey": null,
+},
+"IA": {
+ "Year": null,
+"State": "IA",
+"Crime":  null,
+"fillKey": null,
+},
+"ID": {
+ "Year": null,
+"State": "ID",
+"Crime":   null,
+"fillKey": null,
+},
+"IL": {
+ "Year": null,
+"State": "IL",
+"Crime":  null,
+"fillKey": null,
+},
+"IN": {
+ "Year": null,
+"State": "IN",
+"Crime":  0.12532392100795223,
+"fillKey": "(0.1,0.5]",
+},
+"KS": {
+ "Year": null,
+"State": "KS",
+"Crime":  null,
+"fillKey": null,
+},
+"KY": {
+ "Year": null,
+"State": "KY",
+"Crime":  null,
+"fillKey": null,
+},
+"LA": {
+ "Year": null,
+"State": "LA",
+"Crime":   null,
+"fillKey": null,
+},
+"MA": {
+ "Year": null,
+"State": "MA",
+"Crime":  null,
+"fillKey": null,
+},
+"MD": {
+ "Year": null,
+"State": "MD",
+"Crime":  null,
+"fillKey": null,
+},
+"ME": {
+ "Year": null,
+"State": "ME",
+"Crime":    null,
+"fillKey": null 
+},
+"MI": {
+ "Year": null,
+"State": "MI",
+"Crime":  null,
+"fillKey": null,
+},
+"MN": {
+ "Year": null,
+"State": "MN",
+"Crime":  null,
+"fillKey": null,
+},
+"MO": {
+ "Year": null,
+"State": "MO",
+"Crime": null,
+"fillKey": null,
+},
+"MS": {
+ "Year":null,
+"State": "MS",
+"Crime": null,
+"fillKey": null,
+},
+"MT": {
+ "Year": null,
+"State": "MT",
+"Crime":  null,
+"fillKey": null,
+},
+"NC": {
+ "Year": null,
+"State": "NC",
+"Crime": null,
+"fillKey": null,
+},
+"ND": {
+ "Year": null,
+"State": "ND",
+"Crime":  null,
+"fillKey": null,
+},
+"NE": {
+ "Year": null,
+"State": "NE",
+"Crime":  null,
+"fillKey": null,
+},
+"NH": {
+ "Year": null,
+"State": "NH",
+"Crime":  null,
+"fillKey": null,
+},
+"NJ": {
+ "Year": null,
+"State": "NJ",
+"Crime":  0.8557273490754812,
+"fillKey": "(0.5,10000]",
+},
+"NM": {
+ "Year": null,
+"State": "NM",
+"Crime":  null,
+"fillKey": null,
+},
+"NV": {
+ "Year": null,
+"State": "NV",
+"Crime":  null,
+"fillKey": null,
+},
+"NY": {
+ "Year": null,
+"State": "NY",
+"Crime":  null,
+"fillKey": null,
+},
+"OH": {
+ "Year": null,
+"State": "OH",
+"Crime":  null,
+"fillKey": null,
+},
+"OK": {
+ "Year": null,
+"State": "OK",
+"Crime":  null,
+"fillKey": null,
+},
+"OR": {
+ "Year": null,
+"State": "OR",
+"Crime":  null,
+"fillKey": null,
+},
+"PA": {
+ "Year": null,
+"State": "PA",
+"Crime":  null,
+"fillKey": null,
+},
+"RI": {
+ "Year": null,
+"State": "RI",
+"Crime": null,
+"fillKey": null,
+},
+"SC": {
+ "Year": null,
+"State": "SC",
+"Crime":  null,
+"fillKey": null,
+},
+"SD": {
+ "Year": null,
+"State": "SD",
+"Crime": null,
+"fillKey": null,
+},
+"TN": {
+ "Year": null,
+"State": "TN",
+"Crime": null,
+"fillKey": null,
+},
+"TX": {
+ "Year": null,
+"State": "TX",
+"Crime":  null,
+"fillKey": null,
+},
+"UT": {
+ "Year": null,
+"State": "UT",
+"Crime": null,
+"fillKey": null,
+},
+"VA": {
+ "Year": null,
+"State": "VA",
+"Crime": null,
+"fillKey": null,
+},
+"VT": {
+ "Year": null,
+"State": "VT",
+"Crime":  null,
+"fillKey": null,
+},
+"WA": {
+ "Year": null,
+"State": "WA",
+"Crime":  null,
+"fillKey": null,
+},
+"WI": {
+ "Year": null,
+"State": "WI",
+"Crime":  null,
+"fillKey": null,
+},
+"WV": {
+ "Year": null,
+"State": "WV",
+"Crime":  null,
+"fillKey": null,
+},
+"WY": {
+ "Year": null,
+"State": "WY",
+"Crime":  null,
+"fillKey": null,
+} 
+},
+"geographyConfig": {
+ "popupTemplate":  function(geography, data){
+    return '<div class=hoverinfo><strong>' + geography.properties.name + 
+      ': ' + data.Crime + '</strong></div>';
+  }  
+},
+"id": "chartb9fd59e2efd0" 
+}
+  chartParams.element = document.getElementById('chartb9fd59e2efd0')
+  
+  
+  var mapchartb9fd59e2efd0 = new Datamap(chartParams);
+  
+  
+    
+  // draw a bubble map if specified
+  if (chartParams.bubbles) {
+    var bubbles = chartParams.bubbles
+    mapchartb9fd59e2efd0.bubbles(bubbles)
+  }
+  
+  if (chartParams.labels){
+    mapchartb9fd59e2efd0.labels()
+  }
+  
+  if (chartParams.legend){
+    mapchartb9fd59e2efd0.legend()
+  }
+  
+  setProjection = function( element, options ) {
+    var projection, path;
+ 
+      projection = d3.geo.albersUsa()
+        .scale(element.offsetWidth)
+        .translate([element.offsetWidth / 2, element.offsetHeight / 2]);
+ 
+    path = d3.geo.path()
+      .projection( projection );
+ 
+    return {path: path, projection: projection};
+  }
+</script>
+
+<style>
+.datamaps {
+  position: relative;
+}
+</style>
+    
+    <script></script>    
+  </body>
+</html>
