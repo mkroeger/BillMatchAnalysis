@@ -1,11 +1,11 @@
-%matplotlib inline
+#!/us/bin/env python
 
 import networkx as nx
 import os 
 import json 
 import matplotlib
 import operator
-#matplotlib.use('Agg')
+matplotlib.use('Agg')
 
 graphlab_is_installed = True
 
